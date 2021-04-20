@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+	
+	
+<link rel="Shortcut Icon" type="image/ico" href="images/favicon.ico" />
+	
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+  
+	
+<title>Docwatch</title>
+  
+	
+<!-- CSS _____________________________________________-->
+	
+<link href='http://fonts.googleapis.com/css?family=Josefin+Sans:400,600&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+
+	
+<link rel="stylesheet" href="css/icomoon.css" media="screen" />
+	
+<link rel="stylesheet" href="css/magnificpopup.css" media="screen" />
+	
+<link rel="stylesheet" href="style.css" media="screen" />  
+
+	
+<!-- Fixing Internet Explorer ______________________________________-->
+	
+<!--[if lt IE 9]>
+		
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	
+<link rel="stylesheet" href="css/ie.css" />
+	
+<![endif]-->
+
+
+    <!--Importamos nuestra pagina de estilos y nuestros archivos de JQuery Mobile-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+<link rel="stylesheet" href="style.css">
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+<!--####### Iniciamos nuestro script para JQuery#######-->
+<script>
+var _hmt = _hmt || [];
+(function() {
+var hm = document.createElement("script");
+hm.src = "//hm.baidu.com/hm.js?73c27e26f610eb3c9f3feb0c75b03925";
+var s = document.getElementsByTagName("script")[0];
+s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</head>
+<!--###### Inicia el Body de nuestro pagina######-->
+<body>
+      <!--####### PAGE ONE#  #######-->
+<!--####### INICIO#  #######-->
+<div data-role="page" id="pageone">
+<!--###### Encabezado y boton de Inicio######-->
+    <div data-role="header" data-position="fixed" role="banner" class="ui-header ui-bar-inherit ui-header-fixed slidedown ui-fixed-hidden">
+         <a href="#pageone" class="ui-btn-left ui-btn ui-icon-home ui-btn-icon-notext" data-role="button" role="button">Inicio</a>
+        <h1 class="ui-title" role="heading" aria-level="1">Inicio-DocWatch</h1>
+    </div>
+
+<!--###### Hacemos nuestro menu de navegacion######-->
+    <div data-role="navbar" data-iconpos="bottom" class="ui-navbar" role="navigation">
+        <ul class="ui-grid-b">
+            <li class="ui-block-a"><a href="#pagetwo" data-icon="arrow-l" class="ui-btn ui-icon-grid ui-btn-icon-left">Caracter&iacute;sticas</a></li>
+            <li class="ui-block-b"><a href="#pagethree" data-icon="video" class="ui-link ui-btn ui-icon-video ui-btn-icon-bottom">Referencias</a></li>
+            <li class="ui-block-c"><a href="#pagefour" data-icon="arrow-r" class="ui-btn ui-icon-info ui-btn-icon-left">Acerca de</a></li>
+        </ul>
+        
+    </div>
+<!--###### El cuerpo de nuestra pagina agregamos el icono y le damos una medida de 45 px para que no se vea grande
+    una breve descripcion y añadimos una imagen de inicio en la cual tiene un estilo de ser porpocional al 100 de la 
+    pantalla
+    ######-->
+  <div data-role="main" class="ui-content">
+    <h1 cl>DocWatch
+       <!-- <img class="imgIcono"src="images/icono-DocWatch.png" alt="" width="45px" height="45px">-->
+      </h1>
+    <p>Bienvenido a nuestra pagina, DocWatch es una herramienta para el monitoreo y cuidado de tu salud. Descubre
+       mas de nuestros equipo y caracteristicas. 
+       <img class="imgPortada" src="images/tecnologiaMedica.jpg" alt=""> 
+    </p>
+   
+  </div>
+  <!--# Aqui agregamos nuestro menu inferior o footer donde ponemos un link para todas las paginas#-->
+
+  <div data-role="footer">
+    <a href="#pageone">Home</a>
+    <a href="#pagetwo">Caracteristicas</a>
+    <a href="#pagethree">Referencias</a>
+    <a href="#pagefour">Acerca</a>
+  </div>
+</div> 
+<!--####### PAGE TWO#  #######-->
+<!--Para crear otra pagia creamos una division de data-role con el id de la segunda pagina este parte del codigo es nuestra
+pagina de caracteristicas-->
+<!--####### CARACTERISTICAS#  #######-->
+<!--###### Encabezado y boton de Inicio######-->
+<div data-role="page" id="pagetwo">
+    <div data-role="header" data-position="fixed" role="banner" class="ui-header ui-bar-inherit ui-header-fixed slidedown ui-fixed-hidden">
+        <a href="#pageone" class="ui-btn-left ui-btn ui-icon-home ui-btn-icon-notext" data-role="button" role="button">Inicio</a>
+       <h1 class="ui-title" role="heading" aria-level="1">Caracter&iacute;sticas-DocWatch</h1>
+   </div>
+<!--###### Hacemos nuestro menu de navegacion######-->
+   <div data-role="navbar" data-iconpos="bottom" class="ui-navbar" role="navigation">
+       <ul class="ui-grid-b">
+           <li class="ui-block-a"><a href="#pagetwo" data-icon="arrow-l" class="ui-btn ui-icon-grid ui-btn-icon-left">Caracter&iacute;sticas</a></li>
+           <li class="ui-block-b"><a href="#pagethree" data-icon="video" class="ui-link ui-btn ui-icon-video ui-btn-icon-bottom">Referencias</a></li>
+           <li class="ui-block-c"><a href="#pagefour" data-icon="arrow-r" class="ui-btn ui-icon-info ui-btn-icon-left">Acerca de</a></li>
+       </ul>
+       
+   </div>
+<!--En este añadimos Show Popup para mostrar las caracteriticas de  la aplicacion-->
+   <div data-role="main" class="ui-content">
+    <h1 cl>Caracter&iacute;sticas
+        <img class="imgIcono"src="images/icono-DocWatch.png" alt="" width="45px" height="45px">
+      </h1>
+
+  <div data-role="main" class="ui-content">
+
+      <!--Añadimos nuestro Show Popup en forma de lista-->    
+    <p><ul>
+        <li>
+            <!--Aqui agregamos el Show Popup el boton inicial-->
+            <div data-role="main" class="ui-content">
+                <a href="#myPopup" data-rel="popup" class="ui-btn ui-btn-inline ui-corner-all">Control</a>
+     <p>
+      <img src="images/esq-com.jpg" alt="" width="300px" height="150px">    
+     </p>
+            <!--Aqui lo que dira al presionarlo-->   
+                <div data-role="popup" id="myPopup">
+                  <p>Proporciona un control,para la guia de enfermedades cr&oacute;nicas</p>              
+                </div>
+
+        </li>
+        <li>
+          <div data-role="main" class="ui-content">
+              <a href="#myPopup2" data-rel="popup" class="ui-btn ui-btn-inline ui-corner-all">Contacto</a>
+              <p>
+                <img src="images/com-doc.jpg" alt="" width="300px" height="150px">    
+               </p>
+              <div data-role="popup" id="myPopup2">
+                <p>Hay un mejor contacto con tu Medico, agenda cita y llama a tu medico</p>
+              </div>
+      <li>
+          <div data-role="main" class="ui-content">
+              <a href="#myPopup3" data-rel="popup" class="ui-btn ui-btn-inline ui-corner-all">Alertas</a>
+              <p>
+                <img src="images/doc-am.jpg" alt="" width="300px" height="150px">    
+               </p>
+              <div data-role="popup" id="myPopup3">
+                <p>Proporciona alertas, si detecta anomalias en tus registros</p>
+              </div>
+      </li>
+      
+
+    </ul></p>
+    <div data-role="footer">
+        <a href="#pageone">Home</a>
+        <a href="#pagetwo">Caracteristicas</a>
+        <a href="#pagethree">Referencias</a>
+        <a href="#pagefour">Acerca</a>
+      </div>
+  </div>
+
+   </div>
+</div>
+
+<!--####### PAGE THREE#  #######-->
+<div data-role="page" id="pagethree">
+  <div data-role="header" data-position="fixed" role="banner" class="ui-header ui-bar-inherit ui-header-fixed slidedown ui-fixed-hidden">
+    <a href="#pageone" class="ui-btn-left ui-btn ui-icon-home ui-btn-icon-notext" data-role="button" role="button">Inicio</a>
+   <h1 class="ui-title" role="heading" aria-level="1">Referencias-DocWatch</h1>
+</div>
+
+<div data-role="navbar" data-iconpos="bottom" class="ui-navbar" role="navigation">
+  <ul class="ui-grid-b">
+      <li class="ui-block-a"><a href="#pagetwo" data-icon="arrow-l" class="ui-btn ui-icon-grid ui-btn-icon-left">Caracter&iacute;sticas</a></li>
+      <li class="ui-block-b"><a href="#pagethree" data-icon="video" class="ui-link ui-btn ui-icon-video ui-btn-icon-bottom">Referencias</a></li>
+      <li class="ui-block-c"><a href="#pagefour" data-icon="arrow-r" class="ui-btn ui-icon-info ui-btn-icon-left">Acerca de</a></li>
+  </ul>
+  
+</div>
+
+<div>
+  <h1>Referencias
+    <img class="imgIcono"src="images/icono-DocWatch.png" alt="" width="45px" height="45px">
+  </h1>
+</div>
+
+<div data-role="main" class="ui-content" align="center">
+<div align="center">
+  <p>En nuestra plataforma, podras encontrar todo tipo de especialistas, estan registrados
+    con su cedula profesional. Y acreditados por:
+  </p>
+  <img src="images/conaceme.png" alt="" >
+</div align="center">
+ 
+  <p>A continuacion te mostramos los doctores con mas busquedas en la plataforma:</p>
+  <!--#Uso de jQuery para ejecutar php#-->
+  <div id="Doctores" align="center">
+  <!--####### funcion para tabla mysql 
+    una vez consultada la tabla se utilizara esta division para mostrar los datos# #######-->
+  Cargando....
+  </div>
+<!--#Inicio de Scipt#-->
+   <script>
+   //funcion para importar datos de tabla
+   function pontabla(datos,status){
+ 
+    //alert(status); //marca el status del enlace
+    //llamada de datos
+      $('#Doctores').html(datos);
+   }
+   //metodo para tabla
+   $.get('consultas.php',pontabla);
+   </script>
+<p align="center">
+  <img src="images/fotodoc1.png" alt="" width="75px" height="75px">
+  <img src="images/fotodoc2.png" alt="" width="75px" height="75px">
+  <img src="images/fotodoc3.png" alt=""width="75px" height="75px">
+  <img src="images/fotodoc4.png" alt=""width="75px" height="75px">
+  <img src="images/fotodoc5.png" alt=""width="75px" height="75px">
+</p>
+  <div data-role="footer">
+    <a href="#pageone">Home</a>
+    <a href="#pagetwo">Caracteristicas</a>
+    <a href="#pagethree">Referencias</a>
+    <a href="#pagefour">Acerca</a>
+  </div>
+</div>
+
+</div>
+
+
+
+<!--####### PAGE FOUR#  #######-->
+<div data-role="page" id="pagefour">
+  <div data-role="header" data-position="fixed" role="banner" class="ui-header ui-bar-inherit ui-header-fixed slidedown ui-fixed-hidden">
+    <a href="#pageone" class="ui-btn-left ui-btn ui-icon-home ui-btn-icon-notext" data-role="button" role="button">Inicio</a>
+   <h1 class="ui-title" role="heading" aria-level="1">Referencias-DocWatch</h1>
+</div>
+
+<div data-role="navbar" data-iconpos="bottom" class="ui-navbar" role="navigation">
+  <ul class="ui-grid-b">
+      <li class="ui-block-a"><a href="#pagetwo" data-icon="arrow-l" class="ui-btn ui-icon-grid ui-btn-icon-left">Caracter&iacute;sticas</a></li>
+      <li class="ui-block-b"><a href="#pagethree" data-icon="video" class="ui-link ui-btn ui-icon-video ui-btn-icon-bottom">Referencias</a></li>
+      <li class="ui-block-c"><a href="#pagefour" data-icon="arrow-r" class="ui-btn ui-icon-info ui-btn-icon-left">Acerca de</a></li>
+  </ul>
+  
+</div>
+
+<div>
+  <h1>Contacto
+    <img class="imgIcono"src="images/icono-DocWatch.png" alt="" width="45px" height="45px">
+  </h1>
+</div>
+
+<div data-role="main" class="ui-content">
+  <p></p>
+
+  <main class="contenedor seccion contenido-centrado">
+    <h2 class="fw-300 centrar-texto">Para cualquier aclaricion, duda porfavor llene el siguiente formulario</h2>
+
+
+    <form action="enviar.php" method="post">
+      <legend>CONTACTANOS:</legend>
+      
+      <input type="text" name="nombre" placeholder="Tu Nombre Completo" required>
+
+      
+      <input type="text" name="correo" placeholder="Tu correo electronico" required>
+      
+     
+      <input type="text" name="telefono"  placeholder="Telefono" required>
+      
+      
+      <textarea name="mensaje" placeholder="Mensaje" required ></textarea>
+      <input type="submit" value="ENVIAR" id="button" >
+      
+      
+
+  </fieldset>
+
+ 
+  <div data-role="footer">
+    <a href="#pageone">Home</a>
+    <a href="#pagetwo">Caracteristicas</a>
+    <a href="#pagethree">Referencias</a>
+    <a href="#pagefour">Acerca</a>
+  </div>
+</div>
+
+</div>
+
+</body>
+</html>
